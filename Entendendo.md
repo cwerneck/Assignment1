@@ -104,7 +104,7 @@ plot(steps.per.interval, type = "l", col = "darkgray", lwd = 2.5, ylab = "# of S
 abline(v = 835, col = "red", lw = 1.5); text(1200, 180, paste("Maximum = 835"), col="red", cex=.75)  
 ```
 
-![](Entendendo_files/figure-markdown_github/graph_average_interval-1.png)
+![](graph_average_interval-1.png)
 
 Lets find the number of missing values:
 
@@ -146,7 +146,7 @@ plot3 + geom_vline(xintercept=10766, color="blue", size = 1.2) +
         annotate("text", x = 14000, y=15, label = "Mean = 10,766", color="blue")
 ```
 
-![](Entendendo_files/figure-markdown_github/new_histogram-1.png)
+![](new_histogram-1.png)
 
 ##### **New values for mean and median**
 
