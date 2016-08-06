@@ -86,7 +86,7 @@ abline(v=mean.steps, col="yellow", lwd = 4)
 abline(v=median.steps, col="white", lwd = 2)
 ```
 
-![](Entendendo_files/figure-markdown_github/hist_per_day-1.png) \#\#\#\#\#Now, we will find the interval with most number of steps
+![](hist_per_day-1.png) \#\#\#\#\#Now, we will find the interval with most number of steps
 
 ``` r
 steps.per.interval = aggregate(activity.noNA$steps, by=list(interval = activity.noNA$interval), FUN=mean)
